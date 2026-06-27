@@ -30,7 +30,7 @@ import streamlit as st
 # ─────────────────────────────────────────────────────────
 
 SAMPLE_RATE    = 22050   # Hz – all audio resampled here
-N_FFT          = 2048    # STFT window size in samples
+N_FFT          = 4096# STFT window size in samples
 HOP_LENGTH     = 512     # step between windows
 N_PEAKS        = 10      # max constellation peaks per time frame
 FAN_VALUE      = 5       # pairs per anchor peak
