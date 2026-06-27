@@ -363,10 +363,9 @@ def write_results_csv(rows, path="results.csv"):
 
 def main():
     st.set_page_config(page_title="Zapptain America – EE200",
-                       page_icon="🎵", layout="wide")
+                       page_icon="⚡", layout="wide")
     st.title("🎵 Zapptain America")
-    st.markdown("**EE200 Q3A & Q3B** – Audio fingerprinting via spectrogram "
-                "peaks & hash matching.")
+    st.markdown("Shazam-style audio fingerprinting  ·  spectrogram → constellation → (f₁, f₂, Δt) hashes → offset-histogram matching ")
 
     # ── Sidebar ──────────────────────────────────────────
     with st.sidebar:
